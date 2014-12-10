@@ -68,7 +68,8 @@ function dolly_css() {
 	// This makes sure that the positioning is also good for right-to-left languages
 	$x = is_rtl() ? 'left' : 'right';
 
-	echo "
+	$style = "";
+	$stype .= "
 	<style type='text/css'>
 	#dolly {
 		float: $x;
@@ -76,10 +77,11 @@ function dolly_css() {
 		padding-top: 5px;		
 		margin: 0;
 		font-size: 11px;
-		color: $_GIT_ME_COLOR;
+		color: ".$_GIT_ME_COLOR.";
 	}
 	</style>
 	";
+	echo $style;
 }
 
 add_action( 'admin_head', 'dolly_css' );
