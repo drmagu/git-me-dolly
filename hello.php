@@ -14,7 +14,7 @@ GitHub Plugin URI: https://github.com/drmagu/git-me-dolly
 GitHub Branch:     master
 */
 
-$_GIT_ME_COLOR = "orange";
+$_GIT_ME_COLOR = "purple";
 
 function hello_dolly_get_lyric() {
 	/** These are the lyrics to Hello Dolly */
@@ -79,6 +79,7 @@ function dolly_css() {
 		margin: 0;
 		font-size: 11px;
 		color: ".$_GIT_ME_COLOR.";
+		font-weight: bold;
 	}
 	</style>
 	";
