@@ -5,11 +5,11 @@ Plugin URI: https://github.com/drmagu/git-me-dolly
 Description: This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Git Me, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly</cite> in the upper right of your admin screen on every page.
 Author: DrMagu
 Version: 1.0
-Author URI: http://ma.tt/
+Author URI: http://drmagu.com
 License:           GNU General Public License v2
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 Domain Path:       /languages
-Text Domain:       github-updater
+Text Domain:       git-me-dolly
 GitHub Plugin URI: https://github.com/drmagu/git-me-dolly
 GitHub Branch:     master
 */
