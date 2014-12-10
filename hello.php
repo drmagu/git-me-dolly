@@ -4,7 +4,7 @@ Plugin Name: Git Me Dolly
 Plugin URI: https://github.com/drmagu/git-me-dolly
 Description: This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Git Me, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly</cite> in the upper right of your admin screen on every page.
 Author: DrMagu
-Version: 1.0.4
+Version: 1.0.5
 Author URI: http://drmagu.com
 License:           GNU General Public License v2
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
@@ -69,7 +69,7 @@ function dolly_css() {
 	$x = is_rtl() ? 'left' : 'right';
 
 	$style = "";
-	$stype .= "
+	$style .= "
 	<style type='text/css'>
 	#dolly {
 		float: $x;
