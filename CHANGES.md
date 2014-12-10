@@ -1,5 +1,5 @@
 #### 1.0.7
-* This version introduces the "CHANGES.ms" file
+* This version introduces the "CHANGES.md" file
 * The snippets are rendered in ORANGE
 
 #### pre-history
